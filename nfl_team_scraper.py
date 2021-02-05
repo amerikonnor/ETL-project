@@ -63,17 +63,32 @@ def scraper(team_name):
     titles[5] = 'OFFENSE (Plays - Average Yards)'
     titles[7] = 'RUSHING (Plays - Average Yards)'
     titles[9] = 'PASSING (Comp - Att - Int - Avg)'
-    titles[12] = 'TOUCHDOWNS (Rushing - Passing - Returns - Defensive)'
+    titles[13] = 'TOUCHDOWNS (Rushing - Passing - Returns - Defensive)'
 
 
     ## writng it all to a dataframe
     df = pd.DataFrame({'home':home_stats,'title':titles,'opponent':opponent_stats})
     #df.head()
 
+    # remove all the internal new line characters, format dashes and slashes
+    for i in range(0,len(df)):
+        stat = str(df.iloc[i,0])
+        stat = stat.replace(' ', '')
+        stat = stat.replace('/', ' / ')
+        stat = stat.replace('\n',' - ')
+        df.iloc[i,0] = stat
+
+        stat = str(df.iloc[i,2])
+        stat = stat.replace(' ', '')
+        stat = stat.replace('/', ' / ')
+        stat = stat.replace('\n',' - ')
+        df.iloc[i,2] = stat
+
+    df = df[['title', 'home', 'opponent']]
 
     ##write it to a csv
     filepath = 'resources/team_stats/' + team_name_for + '.csv'
-    df.to_csv(filepath)
+    df.to_csv(filepath, index=False)
 
 
 
