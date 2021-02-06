@@ -8,9 +8,11 @@ Data Sources
 Data Cleaning 
 
 1. NFL teams
+
 We needed to make sure that there was a 'team_id' column, and called the column with the teams 'team_name'.
 
 2. Stats
+
 There were a lot of new line characters at the beginning and end of some stats - had to strip these.
 Some stats used hypens, but these were read as new line characters so we had to use the string replace method on these.
  We then stored each teams stat table in its own csv file.
