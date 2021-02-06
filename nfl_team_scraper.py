@@ -54,6 +54,19 @@ def scraper(team_name):
         opponent_stats.append(opponents)
 
 
+    #changing nan in home turnover ratio to 0, setting opponent turnover ratio to opposite sign
+    if home_stats[15] == '':
+        home_stats[15] = 0
+        opponent_stats[15] = 0
+    else:
+        opponent_stats[15] = home_stats[15]
+
+    if str(opponent_stats[15])[0] == '+':
+        opponent_stats[15] = opponent_stats[-1].replace('+', '-')
+    elif str(opponent_stats[15])[0] == '-':
+        opponent_stats[15] = opponent_stats[-1].replace('-','+')
+
+
     ## in jupyter this found the indexes that needed the title changed. easier to do it here that in the dataframe
     ##titles.index('FIRST DOWNS'), titles.index('OFFENSE'), titles.index('RUSHING'), titles.index('PASSING'), titles.index('TOUCHDOWNS')
 
