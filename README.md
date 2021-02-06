@@ -1,7 +1,7 @@
 # ETL-project
 Data Sources
 1. NFL teams looked up and then typed into excel, saved as csv
-2. NFL team stats from NFL.com/<team-name>/stats
+2. NFL team stats from NFL.com/team-name/stats
     
     
     
