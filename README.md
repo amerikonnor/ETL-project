@@ -2,7 +2,7 @@
 Data Sources
 1. NFL teams looked up and then typed into excel, saved as csv
 2. NFL team stats from NFL.com/<team-name>/stats
-3. NFL power rankings for end of season from https://www.profootballnetwork.com/nfl-power-rankings-end-of-regular-season-week-17-2020/
+3. NFL power rankings for end of season from profootballnetwork.com/nfl-power-rankings-end-of-regular-season-week-17-2020/
     
     
 Data Cleaning 
