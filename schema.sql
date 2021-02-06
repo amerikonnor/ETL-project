@@ -42,3 +42,9 @@ CREATE TABLE teams(
     team_id INT PRIMARY KEY,
     team_name TEXT
 );
+
+CREATE TABLE rankings(
+	team_id INT PRIMARY KEY,
+	ranking INT NOT NULL,
+	record TEXT
+);
