@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS all_stats;
+
 CREATE TABLE all_stats(
 	team_id INT PRIMARY KEY,
 	total_first_downs TEXT,
@@ -17,6 +19,8 @@ CREATE TABLE all_stats(
 	avg_possesion TEXT,
 	turnover_ratio TEXT
 );
+
+DROP TABLE IF EXISTS allowed_all_stats;
 
 CREATE TABLE allowed_all_stats(
 	team_id INT PRIMARY KEY,
@@ -38,13 +42,24 @@ CREATE TABLE allowed_all_stats(
 	allowed_turnover_ratio TEXT
 );
 
+DROP TABLE IF EXISTS teams;
+
 CREATE TABLE teams(
     team_id INT PRIMARY KEY,
     team_name TEXT
 );
 
-CREATE TABLE rankings(
+DROP TABLE IF EXISTS pro_fb_net_rankings;
+
+CREATE TABLE pro_fb_net_rankings(
 	team_id INT PRIMARY KEY,
 	ranking INT NOT NULL,
 	record TEXT
+);
+
+DROP TABLE IF EXISTS nfl_stats_rankings;
+
+CREATE TABLE nfl_stats_rankings(
+	team_id INT PRIMARY KEY,
+	ranking INT NOT NULL
 );
