@@ -1,7 +1,7 @@
 # ETL-project
 Data Sources
 1. NFL teams looked up and then typed into excel, saved as csv
-2. NFL team stats from NFL.com/<team-name>/stats
+2. NFL team stats from NFL.com/team-name/stats
 3. NFL power rankings for end of season from profootballnetwork.com/nfl-power-rankings-end-of-regular-season-week-17-2020/
     
     
@@ -32,3 +32,12 @@ We then had to create good column names that are usable in SQL and rewrite our j
 Database
 
 Since all of our data was based on the NFL teams; we decided to use a relational database. This let us store the team names in a table with a 'team_id', and then have a column 'team_id' in the rest of our tables to reference this instead of storing the team names every time.
+
+Our database has a teams table that contains the columns 'team_id' and 'team_name'. The team_id is how we then refer to the team in the other tables.
+The all_stats table contains the stats for every team from nfl.com. some examples of the stats are first downs, touchdowns, passing yards, etc.
+The allowed_all_stats tables contains the same kind of data as all_stats, but it has how many first downs, touchdowns, passing yards, etc. that each team allowed
+The pro_fb_net_rankings table has the rankings from ProFootballNetwork, as well as each team's record. This could be further cleaned by adding the team records somewhere more central to the database.
+
+Possibilities for Analysis
+
+The nfl_stats_rankings table is an example of how the other data can be used. the jupyter notebook file stat_based_rankings.ipynb uses the all_stats data to calculate a ranking for each team.
