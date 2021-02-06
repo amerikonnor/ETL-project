@@ -11,9 +11,9 @@ Data Cleaning
         Some stats used hypens, but these were read as new line characters so we had to use the string replace method on these.
         We then stored each teams stat table in its own csv file.
         
-        In order to aggregate every teams stats into one database, we first looped through every teams individual csv file and pulled either the home or opponent column for the all_stats or allowed_all_stats tables, respectively. These were then appended together using pandas. Next, we added the team_id column to the dataframe. Since our data always stayed in the same order as our teams csv, we did this just by adding one to the index. The last step of cleaning this data was to reorder the columns to get the team_id first. Finally, the dataframes were written to csv files.
-        
-        We then had to create good column names that are usable in SQL and rewrite our jupyter notebook to use these column names instead.
+ In order to aggregate every teams stats into one database, we first looped through every teams individual csv file and pulled either the home or opponent column for the all_stats or allowed_all_stats tables, respectively. These were then appended together using pandas. Next, we added the team_id column to the dataframe. Since our data always stayed in the same order as our teams csv, we did this just by adding one to the index. The last step of cleaning this data was to reorder the columns to get the team_id first. Finally, the dataframes were written to csv files.
+
+We then had to create good column names that are usable in SQL and rewrite our jupyter notebook to use these column names instead.
         
         
 Database
