@@ -40,4 +40,4 @@ The pro_fb_net_rankings table has the rankings from ProFootballNetwork, as well 
 
 Possibilities for Analysis
 
-The nfl_stats_rankings table is an example of how the other data can be used. the jupyter notebook file stat_based_rankings.ipynb uses the all_stats data to calculate a ranking for each team.
+The nfl_stats_rankings table is an example of how the data can be used. the jupyter notebook file stat_based_rankings.ipynb uses the all_stats data to calculate a ranking for each team.
