@@ -1,33 +1,33 @@
-nfl_teams
-Arizona Cardinals
-Atlanta Falcons
-Baltimore Ravens
-Buffalo Bills
-Carolina Panthers
-Chicago Bears
-Cincinnati Bengals
-Cleveland Browns
-Dallas Cowboys
-Denver Broncos
-Detroit Lions
-Green Bay Packers
-Houston Texans
-Indianapolis Colts
-Jacksonville Jaguars
-Kansas City Chiefs
-Las Vegas Raiders
-Los Angeles Chargers
-Los Angeles Rams
-Miami Dolphins
-Minnesota Vikings
-New England Patriots
-New Orleans Saints
-New York Giants
-New York Jets
-Philadelphia Eagles
-Pittsburgh Steelers
-San Francisco 49ers
-Seattle Seahawks
-Tampa Bay Buccaneers
-Tennessee Titans
-Washington Football Team
+team_id,team_name
+1,Arizona Cardinals
+2,Atlanta Falcons
+3,Baltimore Ravens
+4,Buffalo Bills
+5,Carolina Panthers
+6,Chicago Bears
+7,Cincinnati Bengals
+8,Cleveland Browns
+9,Dallas Cowboys
+10,Denver Broncos
+11,Detroit Lions
+12,Green Bay Packers
+13,Houston Texans
+14,Indianapolis Colts
+15,Jacksonville Jaguars
+16,Kansas City Chiefs
+17,Las Vegas Raiders
+18,Los Angeles Chargers
+19,Los Angeles Rams
+20,Miami Dolphins
+21,Minnesota Vikings
+22,New England Patriots
+23,New Orleans Saints
+24,New York Giants
+25,New York Jets
+26,Philadelphia Eagles
+27,Pittsburgh Steelers
+28,San Francisco 49ers
+29,Seattle Seahawks
+30,Tampa Bay Buccaneers
+31,Tennessee Titans
+32,Washington Football Team
