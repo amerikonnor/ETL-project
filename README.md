@@ -27,7 +27,8 @@ Rankings
 The data for rankings was pretty clean, we had to gather each line from the html which had team, record, and rank, then split them using the .split() function. The Philidelphia Eagles ranking didn't work right because of a typo, but since it was the only one that was broken we just manually wrote in the info for it. 
 The pro_fb_net_rankings table has the rankings from ProFootballNetwork, as well as each team's record. This could be further cleaned by adding the team records somewhere more central to the database.
 
-Possibilities for Analysis
+Possibilities for Analysis:  
+
 Developers can use this data in many ways. The nfl_stats_rankings table is an example of how the data can be used. the jupyter notebook file stat_based_rankings.ipynb uses the all_stats data to calculate a ranking for each team.
 
 Developers could use this data to identify how much time during the game each team had the ball- average possession time vs yards or throwing touchdowns. This would show  which offense moved the fastest.
