@@ -40,4 +40,4 @@ Please add Schemata here:
 
 
 Team members:
-Britney Hopkins Jet-Lania Simpson, Ryan Hathaway, Connor Mackensie, and Marisabrel Matta-Hyams
+Britney Hopkins, Ryan Hathaway, Jet-Lania Simpson, Connor Mackensie, and Marisabel Matta-Hyams
