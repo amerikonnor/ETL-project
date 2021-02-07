@@ -4,7 +4,7 @@
 -	Data Analysis
 
 Data Sources
-1.	NFL team stats from NFL.com/team-name/stats
+1.	NFL team stats from https://www.nfl.com/stats/team-stats/
 2.	NFL teams looked up and then typed into excel, saved as csv
 3.	https://www.profootballnetwork.com/nfl-power-rankings-end-of-regular-season-week-17-2020/
 
