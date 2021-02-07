@@ -41,3 +41,12 @@ The pro_fb_net_rankings table has the rankings from ProFootballNetwork, as well 
 Possibilities for Analysis
 
 The nfl_stats_rankings table is an example of how the data can be used. the jupyter notebook file stat_based_rankings.ipynb uses the all_stats data to calculate a ranking for each team.
+
+We could identify how much time during the game each team had the ball- Average possession time vs yards or throwing touchdowns. This would show us which offense moved the fastest.
+
+We could use the data to see the number of offensive plays vs touch downs between teams.
+
+Make projections about certain teams based on this data for upcoming season.
+
+Identify teams who may use a "bend not break defense" – may give up a ton of yards but not a lot of points. 
+
