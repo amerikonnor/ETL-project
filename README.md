@@ -38,8 +38,6 @@ Developers could use this data to identify how much time during the game each te
 Data could be used to make comparisons of number of offensive plays vs touch downs between teams.
 Additionally, data can help make projections about certain teams based on this data for upcoming season. Identify teams who may use a "bend not break defense" – may give up a ton of yards but not a lot of points.
 
-Please add Schemata here:
-
 
 Team members:
 Britney Hopkins, Ryan Hathaway, Jet-Lania Simpson, Connor Mackensie, and Marisabel Matta-Hyams
