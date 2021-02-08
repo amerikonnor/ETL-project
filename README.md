@@ -25,8 +25,6 @@ Database
 
 Since all our data was based on the NFL teams; we decided to use a relational database. This let us store the team names in a table with a 'team_id', and then have a column 'team_id' in the rest of our tables to reference this instead of storing the team names every time.
 
-The final tables or collections that were used in the production of this database are:
-
 Our database has a team’s table that contains the columns 'team_id' and 'team_name'. The team_id is how we then refer to the team in the other tables.
 The all_stats table contains the stats for every team from nfl.com. Some examples of the stats are first downs, touchdowns, passing yards, etc.
 The allowed_all_stats tables contains the same kind of data as all_stats, but it also contains data for how many first downs, touchdowns, passing yards, etc., that each team allowed.
