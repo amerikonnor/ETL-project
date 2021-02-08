@@ -1,7 +1,7 @@
 # ETL-project Proposal
 -	Data Sources
 -	Data Cleanup
--     Database
+-	Database
 -	Data Analysis
 
 Data Sources
